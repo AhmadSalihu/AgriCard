@@ -40,7 +40,7 @@ function Header() {
                   <a href="/acquatic">Acquatic</a>
                   <a href="/agric_entrepreneur">Agric Entreprenuer</a>
                   <a href="/grains">Grains</a>
-                  <a href="/livestock">Livestoct</a>
+                  <a href="/livestock">Livestock</a>
                   <a href="/mixedagric">Mixed Farming</a>
                   <a href="/poultry">Poultry</a>
                 </div>

@@ -46,10 +46,12 @@
 
 .mw7 {
     max-width: 90rem;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .w-100 {
-    width: 100%;
+    width: 100px;
 }
 .h1{
     text-shadow: 2px 2px 5px red;
@@ -60,8 +62,6 @@
 .a {
   list-style-position: outside;
 }
-
-
 
 .pv4 {
     padding-top: 2rem;
@@ -100,6 +100,24 @@
 
 .f6 {
     font-size: .875rem;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .center {

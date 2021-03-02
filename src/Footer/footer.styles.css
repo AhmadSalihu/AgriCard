@@ -4,11 +4,11 @@
 
 .bg-center {
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
 }
 
 .br2 {
-    border-radius: .25rem;
+    border-radius: 1rem;
 }
 .dib {
     display: flex;

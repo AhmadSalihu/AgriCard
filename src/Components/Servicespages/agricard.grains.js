@@ -8,7 +8,7 @@ const AgriCardGrains = () => {
 		<Carousel.Item interval={5000}>
 			<img
 				className="d-block w-100"
-				src="/cardimages/entrep01.jpeg"
+				src="/cardimages/grain06.jpg"
 				alt="First slide"
 			/>
 			<Carousel.Caption>
@@ -19,7 +19,7 @@ const AgriCardGrains = () => {
 		<Carousel.Item interval={3000}>
 			<img
 				className="d-block w-100"
-				src="/cardimages/entrep.jpg"
+				src="/cardimages/grain07.jpg"
 				alt="Second slide"
 			/>
 			<Carousel.Caption>
@@ -27,7 +27,81 @@ const AgriCardGrains = () => {
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</Carousel.Caption>
 		</Carousel.Item>
-		</Carousel>
+			</Carousel>
+				<div class="row">
+				<div class="column">
+					<div class="card">
+						<img src='/cardimages/grain03.jpg' alt='' />
+						<div className="tb flex justify-between shrink">
+						<h3>Grains</h3>
+						<button className="btn">Subscribe</button>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<img src='/cardimages/grain02.jpg' alt='' />
+						<div className="tb flex justify-between shrink">
+						<h3>Grains</h3>
+						<button className="btn">Subscribe</button>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<img src='/cardimages/grain02.jpg' alt='' />
+						<div className="tb flex justify-between shrink">
+						<h3>Grains</h3>
+						<button className="btn">Subscribe</button>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<img src='/cardimages/grains05.jpg' alt='' />
+						<div className="tb flex justify-between shrink">
+						<h3>Grains</h3>
+						<button className="btn">Subscribe</button>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<img src='/cardimages/grain0.jpg' alt='' />
+						<div className="tb flex justify-between shrink">
+						<h3>Grains</h3>
+						<button className="btn">Subscribe</button>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<img src='/cardimages/grain01.jpg' alt='' />
+						<div className="tb flex justify-between shrink">
+						<h3>Grains</h3>
+						<button className="btn">Subscribe</button>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<img src='/cardimages/grain07.jpg' alt='' />
+						<div className="tb flex justify-between shrink">
+						<h3>Grains</h3>
+						<button className="btn">Subscribe</button>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<img src='/cardimages/grain06.jpg' alt='' />
+						<div className="tb flex justify-between shrink">
+						<h3>Grains</h3>
+						<button className="btn">Subscribe</button>
+						</div>
+					</div>
+				</div>
+			</div>	
 		</>
 	)
 }

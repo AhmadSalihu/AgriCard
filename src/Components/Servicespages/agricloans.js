@@ -14,19 +14,18 @@ const AgricLoan = () => {
 		</Carousel>
 		<div className="display">
 		<br />
-		<h1>Large Credit Product</h1>
+		<h1 className='h1'>Large Credit Product</h1>
 		<br />
-			<ol>
+			<ul className="h2">
 				<li>Developed to finance agricultural production and Agro-allied activities.
 				</li>
-				<li>Loan Volume ranging from %0 million to a maximum of 1 billion for a single obligor</li>
+				<li>Loan Volume ranging from %0 upto to a maximum of 1 billion for a single obligor</li>
 				<li> Loan tenor not exceeding five(5) years</li>
-			</ol>
-			{/* <img classname='' src='https://netstorage-legit.akamaized.net/images/2a7217cbde1af5c0.jpg?imwidth=900' alt='' /> */}
+			</ul>
 		</div>
 		<br />
 		<div>
-			<h1>
+			<h1 className="h1">
 				AgriCard Loan Requirement
 			</h1>
 			<br />

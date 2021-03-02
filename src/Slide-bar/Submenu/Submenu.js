@@ -8,9 +8,9 @@ const Submenu = () => {
   <article className="pv4 bt bb b--black-10 ph3 ph0-l">
     <div className="flex flex-row flex-row-ns">
       <div className="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-						<h1 className="f3 flex flex-col md:flex-row font athelas mt0 lh-title">You grow, you raise, you farm. You are a Producer. Let AgriCard get you what you need to keep growing, raising and farming.</h1>
-						<p className="f5 f4-l lh-copy athelas">A Digitalize AgriCard Management Sytems for robust citizen database with effective security management and Real Time Online Agricultural Bussiness Revenue Recoveries</p>
-        <p className="f5 f4-l lh-copy athelas">
+						<h1 className="f3 2xl flex flex-col md:flex-row font athelas mt0 lh-title">You grow, you raise, you farm. You are a Producer. Let AgriCard get you what you need to keep growing, raising and farming.</h1>
+						<p className="f5 sxl f4-l lh-copy athelas">A Digitalize AgriCard Management Sytems for robust citizen database with effective security management and Real Time Online Agricultural Bussiness Revenue Recoveries</p>
+        <p className="f5 f4-l 2xl lh-copy athelas">
 							AgriCard is an agricultural credit card dedicated exclusively to YOU: Nigerian’s farmers. Designed to work with producers’ cash flow needs, AgriCard offers various payment and plans benefits that suit YOUR agribusiness.
         </p>
       </div>
@@ -20,19 +20,18 @@ const Submenu = () => {
     </div>
   </article>
 			<article className="pv4 bb b--black-10 mw7 ph3 ph0-l">
-    <h2 className="athelas ph3 ph0-l h1">AgriCard (verve Prepaired FRiD)</h2>
+    <h2 className="athelas ph3 ph0-l h1">AgriCard (Verve Prepaired FRiD)</h2>
     <div className="flex flex-row  flex-row-ns">
       <div className="w-100 w-60-ns pr3-ns order-2 order-1-ns">
         <h1 className="f3 athelas mt0 lh-title">AgriCard is a payment solution for agricultural producers</h1>
-        <p className="f5 f4-l lh-copy athelas">
+        <p className="f5 2xl f4-l lh-copy athelas">
           This giant of a whale says it is ready to begin planning a new
           swim later this afternoon. A powerful mammal that relies on fish and plankton instead
           of hamburgers.
         </p>
       </div>
-      <div className="pl3-ns flex flex-row order-1 imgspace order-2-ns mb4 mb0-ns w-100 w-40-ns">
+      <div className="pl3-ns flex flex-row order-1  imgspace order-2-ns mb4 mb0-ns w-100 w-40-ns">
         <img src="/cardimages/vervecard.jpg" className="db" alt="" />
-        <img src="/cardimages/fmard.jpg" className="db" alt="agrivervecard" />
       </div>
     </div>
   </article>
@@ -48,7 +47,7 @@ const Submenu = () => {
 							Agricultural insurance is an effective mechanism for reducing the losses farmers suffer due to natural calamities such as floods, droughts, and outbreaks of pests and diseases.  The following are some other  benefits of agricultural insurance:
         </h1>
 						<h1>Benefits of AgriCard Insuarance</h1>
-				<ul className="a 5 f4-l lh-copy athelas">
+				<ul className="a 5 f4-l 7xl lh-copy athelas">
 							<li>It enables farmers to obtain credit and financing for investment in new technologies, tools, and equipment to enhance and sustain their productive capacity.</li>
 							<br />
 							<li>It also assists farmers in regulating cash flows and provides a financial buffer with which to rehabilitate damaged enterprises</li>
@@ -58,11 +57,17 @@ const Submenu = () => {
       </div>
       <div className="pl3-ns flex flex-row order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
         <img src="/agrikad.images/agricard0.jpg" className="db" alt="" />
-        {/* <img src="/agrikad.images/agric_insurance.jpg" className="db" alt="" /> */}
       </div>
     </div>
-			</article>
-</section>
+      </article>
+      {/* <h2 className="h1">How To Register With State and Get AgriCard Service Benefits</h2>
+      <br />
+      <div className="flex flexDirection row">
+        <h1>Step 1</h1>
+        <img src='/cardimages/agricard01' alt="" />
+
+      </div> */}
+    </section>
 	
 	)
 }
