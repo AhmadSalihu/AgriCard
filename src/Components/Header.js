@@ -46,7 +46,7 @@ function Header() {
                 </div>
             </div>  
                 <Link style={{ fontSize: '20px'}} className="dropbtn" to='/about'>About</Link>
-                <Link style={{ fontSize: '20px'}} className="dropbtn" to='/signin'>Register</Link>
+                <Link style={{ fontSize: '20px'}} className="dropbtn" to='/sign_up'>Register</Link>
             <Navigation />
             </header>
     )

@@ -88,3 +88,7 @@ body {
   transform: translate(-50%, -50%);
   mix-blend-mode: screen;
 }
+.card:hover,
+.card:focus {
+  transform: scale(1.05);
+}

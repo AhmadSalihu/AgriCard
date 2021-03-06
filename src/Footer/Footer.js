@@ -5,7 +5,7 @@ function Footer() {
     return (
       <footer className="tc-l bg-center cover bg-black">
         <div className='tc h1 tx '>
-          <h2>In Partner With</h2>
+          <h2 className='h1 text-sm'>Prospective Partners</h2>
         </div>
   <div className="w-100 ph3 pv5 bg-black-80">
     <a className="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc br2 pa2" href="/#" title="BOA">

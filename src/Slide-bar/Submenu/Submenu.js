@@ -1,74 +1,72 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import './submenu.styles.css';
 
 const Submenu = () => {
-	return (
-		<section className="mw7 flex felxDirection row center">
-  <h2 className="athelas ph3 ph0-l h1">AgriCard</h2>
-  <article className="pv4 bt bb b--black-10 ph3 ph0-l">
-    <div className="flex flex-row flex-row-ns">
-      <div className="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-						<h1 className="f3 2xl flex flex-col md:flex-row font athelas mt0 lh-title">You grow, you raise, you farm. You are a Producer. Let AgriCard get you what you need to keep growing, raising and farming.</h1>
-						<p className="f5 sxl f4-l lh-copy athelas">A Digitalize AgriCard Management Sytems for robust citizen database with effective security management and Real Time Online Agricultural Bussiness Revenue Recoveries</p>
-        <p className="f5 f4-l 2xl lh-copy athelas">
-							AgriCard is an agricultural credit card dedicated exclusively to YOU: Nigerian’s farmers. Designed to work with producers’ cash flow needs, AgriCard offers various payment and plans benefits that suit YOUR agribusiness.
-        </p>
-      </div>
-      <div className="column pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
-        <img src="/cardimages/agricard02.jpg" className="db" alt="agriCard" />
-          </div>
+  AOS.init();
+  return (
+      <>
+        <div className="main border-b">
+        <div className="row">
+          <div className="content">
+      <img src="/cardimages/agricard02.jpg" alt="Agricard" style={{width: '100%'}}/>
+      <h3 className="h1">AgriCard</h3>
+     <p className="font-bold">You grow, you raise, you farm. You are a Producer. Let AgriCard get you what you need to keep growing, raising and farming.</p>
+						<p className="font-bold"> A Digitalize AgriCard Management Sytems for robust citizen database with effective security management and Real Time Online Agricultural Bussiness Revenue Recoveries</p>
     </div>
+  </div>
+      </div>
+     <section className="mw7 center avenir">
+  <h2 className="baskerville fw1 ph3 ph0-l tc h1">AgriC Verve (Prepaired FRiD)</h2>
+  <article className="bb b--black-10">
+    <a style={{textDecoration: 'none', color: 'navy-blue'}} className="db pv4 ph3 ph0-l black " href="/#">
+      <div className="flex flex-column flex-row-ns">
+        <div data-aos="fade-right" className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+          <img src="cardimages/vervecard.jpg" className="db fl w-50" alt="" />
+        </div>
+        <div className="w-100  w-60-ns pl3-ns">
+          <h1 className="f3 fw1 baskerville mt0 h1 fl w-50 lh-title">Agric Verve Card, is a payment solution for farmers</h1>
+            <p className="">Agric Verve card, is an agricultural credit card dedicated exclusively to YOU: Nigerian’s farmers. Designed to work with producers’ cash flow needs, AgriCard offers various payment and plans benefits that suit YOUR agribusiness.</p>
+        </div>
+      </div>
+    </a>
   </article>
-			<article className="pv4 bb b--black-10 mw7 ph3 ph0-l">
-    <h2 className="athelas ph3 ph0-l h1">AgriCard (Verve Prepaired FRiD)</h2>
-    <div className="flex flex-row  flex-row-ns">
-      <div className="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-        <h1 className="f3 athelas mt0 lh-title">AgriCard is a payment solution for agricultural producers</h1>
-        <p className="f5 2xl f4-l lh-copy athelas">
-          This giant of a whale says it is ready to begin planning a new
-          swim later this afternoon. A powerful mammal that relies on fish and plankton instead
-          of hamburgers.
-        </p>
-      </div>
-      <div className="pl3-ns flex flex-row order-1  imgspace order-2-ns mb4 mb0-ns w-100 w-40-ns">
-        <img src="/cardimages/vervecard.jpg" className="db" alt="" />
-      </div>
-    </div>
-  </article>
-			<article className="pv4 bb b--black-10 ph3 ph0-l">
-				<h2 className="athelas ph3 ph0-l h1" >AgriCard Investment
-				Packages</h2>
-    <div className="flex flex-row  flex-row-ns">
-      <div className="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-        <h1 className="f3 athelas mt0 lh-title">
-      	
-						</h1>
-						 <h1 className="f5 f4-l lh-copy athelas">
-							Agricultural insurance is an effective mechanism for reducing the losses farmers suffer due to natural calamities such as floods, droughts, and outbreaks of pests and diseases.  The following are some other  benefits of agricultural insurance:
-        </h1>
-						<h1>Benefits of AgriCard Insuarance</h1>
-				<ul className="a 5 f4-l 7xl lh-copy athelas">
-							<li>It enables farmers to obtain credit and financing for investment in new technologies, tools, and equipment to enhance and sustain their productive capacity.</li>
-							<br />
-							<li>It also assists farmers in regulating cash flows and provides a financial buffer with which to rehabilitate damaged enterprises</li>
-									<br />
-					<li>It reduces business risk. In agriculture, equipment and properties are used in the operations which due to human error can be damaged or destroyed in a split second. Agricultural insurance helps to offset these types of risks.</li>
-				</ul>
-      </div>
-      <div className="pl3-ns flex flex-row order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
-        <img src="/agrikad.images/agricard0.jpg" className="db" alt="" />
-      </div>
-    </div>
-      </article>
-      {/* <h2 className="h1">How To Register With State and Get AgriCard Service Benefits</h2>
+</section>
       <br />
-      <div className="flex flexDirection row">
-        <h1>Step 1</h1>
-        <img src='/cardimages/agricard01' alt="" />
+          <h2 className="h1">How To Access AGriCard</h2>
+      <div  data-aos="fade-up"
+     data-aos-duration="3000">
+      <div className="row">
+        <div className="card">
+          <h3 className="h1">Step 1</h3>
+          <p className="font-bold text-purple-700 text-opacity-100"><strong>Create user profile and register with your email</strong></p>
+          <span className="font-bold text-purple-700 text-opacity-100"><strong></strong>Includes your address, and state</span>
+      </div>
 
-      </div> */}
-    </section>
-	
+        <div className="card">
+          <h3 className="h1">Step 2</h3>
+          <p className="font-bold text-purple-700 text-opacity-100"><strong>Click the Next step button</strong></p>
+          <p className="font-bold text-purple-700 text-opacity-100"><strong></strong></p>
+          <p className="font-bold text-purple-700 text-opacity-100">Select AgriCard Service type of your choice</p>
+        </div>
+        <div className="card">
+          <h3 className="h1">Step 3</h3>
+            <p className="font-bold text-purple-700 text-opacity-100"><strong>Create Profile</strong></p>
+            <span className="font-bold text-purple-700 text-opacity-100">Provide the neccessary details in the register form</span>
+          <p className="font-bold text-purple-700 text-opacity-100 ">Make Sure to reviev the details for accuracy</p>
+          </div>
+      
+        <div className="card">
+          <h3 className="h1">Step 4</h3>
+          <p className="font-bold text-purple-700 text-opacity-100"></p>
+          <p className="font-bold text-purple-700 text-opacity-100 "></p>
+      </div>
+        </div>
+      </div>  
+     
+	</>
 	)
 }
 

@@ -1,5 +1,7 @@
 .cover {
     background-size: cover !important;
+    position: relative;
+    position: absolute
 }
 
 .bg-center {
@@ -23,7 +25,7 @@
 }
 
 .h2 {
-    height: 5rem;
+    height: 3rem;
 }
 
 .link {
@@ -89,7 +91,7 @@
 }
 
 .pv5 {
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 

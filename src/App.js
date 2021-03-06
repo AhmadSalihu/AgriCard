@@ -24,6 +24,7 @@ import MixedAgric from './Components/Servicespages/mixedagric';
 import AgriCardPriceSurvey from './Components/Servicespages/agricprice.survey';
 import AgriCardFertilizer from './Components/Servicespages/agricard.fertilizer';
 import CommordityExchangeInformation from './Components/Servicespages/agricard.commodityexchange_information';
+import SingUpForm from './Components/RegisterForm/Sign-up';
 
 
 function App() {
@@ -53,7 +54,8 @@ function App() {
              <Route path='/mixedagric' component={MixedAgric} />
              <Route path='/agric_price_survey' component={AgriCardPriceSurvey} />
              <Route path='/fetilizer_program' component={AgriCardFertilizer} />
-             <Route path='/agric_cei' component={CommordityExchangeInformation} />
+            <Route path='/agric_cei' component={CommordityExchangeInformation} />
+            <Route path='/sign_up' component={SingUpForm} />
            <Route path="/about">
             <About />
           </Route>        
