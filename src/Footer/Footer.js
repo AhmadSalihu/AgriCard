@@ -1,8 +1,12 @@
 import React from 'react'
 import './footer.styles.css'
+import { useLocation } from 'react-router-dom'
 
 function Footer() {
-    return (
+  const location = useLocation()
+  return (
+    <>
+      {location.pathname === '/' && (
       <footer className="tc-l bg-center cover bg-black">
         <div className='tc h1 tx '>
           <h2 className='h1 text-sm'>Prospective Partners</h2>
@@ -62,7 +66,9 @@ function Footer() {
     </a>
         </div>
       <div className="h2"> &copy; Copyright 2021 AgriCard</div>
-    </footer>
+        </footer>
+      )}
+    </>
     )
 }
 

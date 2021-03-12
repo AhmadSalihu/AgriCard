@@ -6,7 +6,7 @@ import {
 } from "react-router-dom"
 import Header from './Components/Header'
 import Footer from './Footer/Footer'
-import Home from './Views/Home'
+// import Home from './Views/Home'
 import About from './Views/About'
 import Carousel from './Slide-bar/Carousel';
 import Submenu from './Slide-bar/Submenu/Submenu';
@@ -25,6 +25,7 @@ import AgriCardPriceSurvey from './Components/Servicespages/agricprice.survey';
 import AgriCardFertilizer from './Components/Servicespages/agricard.fertilizer';
 import CommordityExchangeInformation from './Components/Servicespages/agricard.commodityexchange_information';
 import SingUpForm from './Components/RegisterForm/Sign-up';
+import Home from './Views/Home';
 
 
 function App() {

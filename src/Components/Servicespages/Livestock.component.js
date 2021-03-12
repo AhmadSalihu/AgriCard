@@ -1,3 +1,4 @@
+import { Button } from '@material-ui/core'
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 
@@ -28,7 +29,7 @@ const Livestock = () => {
 		<Carousel.Item interval={5000}>
 			<img
 				className="d-block w-100"
-				src="/cardimages/livestock03.jpg"
+				src='/cardimages/livestock02.jpg'
 				alt="Third slide"
 			/>
 			<Carousel.Caption>
@@ -37,77 +38,119 @@ const Livestock = () => {
 			</Carousel.Caption>
 		</Carousel.Item>
 			</Carousel>
-				<div class="row">
-					<div class="column">
-					<div class="card">
-						<img src='/cardimages/livestock01.jpg' alt='' />
-						<div className="tb flex justify-between">
-						<h3 classname="title">Poultry</h3>
-						<button className="btn">Subscribe</button>
-						</div>
-					</div>
-				</div>	<div class="column">
-					<div class="card">
-						<img src='/cardimages/livestock02.jpg' alt='' />
-						<div className="tb flex justify-between shrink">
-						<h3>Poultry</h3>
-						<button className="btn">Subscribe</button>
-						</div>
-					</div>
-				</div>
-					<div class="column">
-					<div class="card">
-						<img src='/cardimages/livestock03.jpg' alt='' />
-						<div className="tb flex justify-between">
-						<h3>Poultry</h3>
-						<button className="btn">Subscribe</button>
-						</div>
-					</div>
-				</div>
-					<div class="column">
-					<div class="card">
-						<img src='/cardimages/livestock04.jpg' alt='' />
-						<div className="tb flex justify-between">
-						<h3>Poultry</h3>
-						<button className="btn">Subscribe</button>
-						</div>
-					</div>
-				</div>
-					<div class="column">
-					<div class="card">
-						<img src='/cardimages/livestock01.jpg' alt='' />
-						<div className="tb flex justify-between">
-						<h3>Poultry</h3>
-						<button className="btn">Subscribe</button>
-						</div>
-					</div>
-				</div>	<div class="column">
-					<div class="card">
-						<img src='/cardimages/poultry01.jpg' alt='' />
-						<div className="tb flex justify-between">
-						<h3>Poultry</h3>
-						<button className="btn">Subscribe</button>
-						</div>
-					</div>
-				</div>	<div class="column">
-					<div class="card">
-						<img src='/cardimages/poultry01.jpg' alt='' />
-						<div className="tb flex justify-between">
-						<h3>Poultry</h3>
-						<button className="btn">Subscribe</button>
-						</div>
-					</div>
-				</div>
-					<div class="column">
-					<div class="card">
-						<img src='/cardimages/poultry05.jpg' alt='' />
-						<div className="tb flex justify-between">
-						<h3>Poultry</h3>
-						<button className="btn">Subscribe</button>
-						</div>
-					</div>
-				</div>
+		<div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
+        <a href="/" aria-label="View Item">
+          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
+             src='/cardimages/livestock01.jpg'
+              alt="poultry"
+            />
+            <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+            </div>
+          </div>						
+        </a>
+        <a href="/" aria-label="View Item">
+          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
+					src='/cardimages/livestock.jpg' 								
+              alt="poultry"
+            />
+            <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+            </div>
+          </div>
+        </a>
+        <a href="/" aria-label="View Item">
+          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
+             src='/cardimages/livestock03.jpg'
+             alt="poultry"
+            />
+            <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+            </div>
+          </div>
+					</a>
+					<a href="/" aria-label="View Item">
+          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
+              src='/cardimages/livestock02.jpg'
+              alt="poultry"
+            />
+            <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+            </div>
+          </div>
+					</a>
+					<a href="/" aria-label="View Item">
+          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
+              src='/cardimages/livestock04.jpg'
+            alt="poultry"
+            />
+            <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+            </div>
+          </div>
+					</a>
+					<a href="/" aria-label="View Item">
+          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
+              src='/cardimages/livestock05.jpg'
+             alt="poultry"
+            />
+            <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+            </div>
+          </div>
+					</a>
+					<a href="/" aria-label="View Item">
+          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
+             src='/cardimages/livestock06.jpg'
+             alt="poultry"
+            />
+            <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+            </div>
+          </div>
+        </a>
+        <a href="/" aria-label="View Item">
+          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-l	g hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
+              src='/cardimages/livestock07.jpg'
+              alt="poultry"
+            />
+             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+            </div>
+          </div>
+        </a>
+      </div>
 			</div>
+			<br />
+			<div>
+				<Button type='submit' variant="contained"
+					color='primary'>Apply for Card{' '} ₦5000</Button>
+			</div>	
 		</>
 	)
 }

@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { Typography, Paper, Stepper, Step, StepLabel } from '@material-ui/core'
-
 import useStyles from './styles'
-import AgriCardType from './AgriCardTypeForm';
+import Review from './AgriCardTypeForm';
 import AddressForm from './RegisterForm';
+import agricards from '../agriCardState.component/selectecard.data';
 
 
-const steps = ['Address Form', 'AgriCard Type'];
-const SingUpForm = () => {
+const steps = ['Address Form', 'Review Details'];
+const SingUpForm = ({ selection }) => {
 	const [activeStep, setActiveStep] = useState(0);
 	const [dataForm, setDataForm] = useState({})
 	const classes = useStyles();
@@ -28,8 +28,8 @@ const SingUpForm = () => {
 	const  backStep  = () => setActiveStep ((prevActiveStep) => prevActiveStep - 1) 
 
 	const Form = () => activeStep === 0
-		? <AddressForm next={next} />
-		: <AgriCardType dataForm={dataForm} nextStep={nextStep} backStep={backStep} />
+		? <AddressForm next={next} agricards={agricards}  />
+		: <Review dataForm={dataForm} backStep={backStep} agricards={agricards} selection={selection} />
 
 
  

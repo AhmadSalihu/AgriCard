@@ -1,5 +1,8 @@
+.hdc{
+  background-color: #55acb3;
+}
 .dropbtn {
-  color: black;
+  color: rgb(13, 89, 231);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: x-large;
   font-weight: bold;
@@ -9,8 +12,10 @@
   text-decoration: none;
 }
 .font{
-  size: 2.5rem;
+  size: 1rem;
+background-size: smalls;
 }
+
 
 .dropdown {
   position: relative;
@@ -20,7 +25,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #8782ca;
   width: 350px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;

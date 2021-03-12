@@ -7,16 +7,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
  function Slidebar() {
   return (
-    <Carousel className="border-b pa3 ma3">
+    <Carousel className="border-b pa2 ma3">
   <Carousel.Item>
     <img
       className="d-block w-100"
       src="https://miro.medium.com/max/1366/1*JGzG0Jhgs-OrMCH1-Qj2MA.jpeg"
       alt="First slide"
     />
-    <Carousel.Caption>
-      <h3>Digitalize Agric Cultural Management Systems</h3>
-      <p>Real Time Agricultural Online Agric Cultural Bussiness With Effective Security</p>
+        <Carousel.Caption>
+          <div style={{ overflow: 'hidden' }} className="h1 f5">
+      <p>Real Time Agricultural Online Bussiness With Effective Management Security</p>
+          </div>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -26,19 +27,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
       alt="Second slide"
     />
 
-    <Carousel.Caption>
-      <h3>Online Roburst Citizen Database</h3>
-      <p>Effective Revenue Recovery upto 30%</p>
+        <Carousel.Caption>
+        <div style={{ overflow: 'hidden' }} className="h1 f5">
+          <h3>Online Roburst Citizen Database</h3>
+          <p>Effective Revenue Recovery upto 30%</p>
+        </div>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://eco-business.imgix.net/ebmedia/fileuploads/soybean-field-farming-field-agriculture.jpg?fit=crop&h=960&ixlib=django-1.2.0&w=1440"
+      src="/cardimages/el-rufai01.jpg"
       alt=""
     />
 
-    <Carousel.Caption>
+    <Carousel.Caption className="h1">
       <h3>Secured Your Agric Card</h3>
       <p>Secured Your Owned Card for Keeping The Change KTC</p>
     </Carousel.Caption>

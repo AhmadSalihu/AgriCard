@@ -1,11 +1,11 @@
 import React from 'react'
-import AgriState from '../Components/agriproduct/agriState'
+import AgriStateCard from '../Components/agriCardState.component/agri_card_state'
 // import Submenu from '../Slide-bar/Submenu/Submenu';
 
-const Home = () => {
+const Home = ({ searchChange }) => {
     return (
-        <div className="flex justify-between space-around">
-            <AgriState />
+        <div className="flex justify-between space-around tc">
+            <AgriStateCard searchChange={searchChange}/>
         </div>
     )
 }

@@ -1,21 +1,24 @@
+
 * {
   box-sizing: border-box;
 }
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .btn {
-  background-color: #4CAF50; /* Green */
+  background-color: #062f5f; /* Green */
   border-radius: 12px;
   color: white;
-  padding: 10px 22px;
-  margin-top: 10px;
+  padding: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   text-align: center;
   text-decoration: none;
   display: flex;
   flex-shrink: inherit;
-  font-size: 16px;
+  font-size: 12px;
   overflow: hidden;
 }
 
@@ -67,10 +70,11 @@ body {
   }
 }
 .image-container {
-  background-image: url("/cardimages/entrep000.jpg");
+  background-image: url("/cardimages/el-rufai01.jpg");
   background-size: cover;
   position: relative;
   height: 500px;
+  width: 100%;
 }
 
 .text {
