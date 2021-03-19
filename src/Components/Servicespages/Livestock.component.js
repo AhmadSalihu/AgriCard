@@ -44,11 +44,11 @@ const Livestock = () => {
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-             src='/cardimages/livestock01.jpg'
+             src='/cardimages/livestock02.jpg'
               alt="poultry"
             />
             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Cattle</h3>
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
             </div>
           </div>						
@@ -57,37 +57,11 @@ const Livestock = () => {
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-					src='/cardimages/livestock.jpg' 								
-              alt="poultry"
-            />
-            <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
-            </div>
-          </div>
-        </a>
-        <a href="/" aria-label="View Item">
-          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-            <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
-             src='/cardimages/livestock03.jpg'
+             src='/cardimages/sheep.jpg'
              alt="poultry"
             />
             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
-            </div>
-          </div>
-					</a>
-					<a href="/" aria-label="View Item">
-          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-            <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src='/cardimages/livestock02.jpg'
-              alt="poultry"
-            />
-            <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Sheep</h3>
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
             </div>
           </div>
@@ -97,10 +71,10 @@ const Livestock = () => {
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
               src='/cardimages/livestock04.jpg'
-            alt="poultry"
+              alt="poultry"
             />
             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Livestock</h3>
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
             </div>
           </div>
@@ -110,10 +84,10 @@ const Livestock = () => {
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
               src='/cardimages/livestock05.jpg'
-             alt="poultry"
+            alt="poultry"
             />
             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Sheep & Dog</h3>
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
             </div>
           </div>
@@ -122,11 +96,50 @@ const Livestock = () => {
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-             src='/cardimages/livestock06.jpg'
+              src='/cardimages/ramstock.jpg'
              alt="poultry"
             />
             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Ram</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+            </div>
+          </div>
+					</a>
+					<a href="/" aria-label="View Item">
+          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
+             src='/cardimages/goatstock.jpg'
+             alt="poultry"
+            />
+            <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Goats</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+            </div>
+          </div>
+        </a>
+					<a href="/" aria-label="View Item">
+          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
+             src='/cardimages/rabbit.jpg'
+             alt="poultry"
+            />
+            <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Rabbits</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+            </div>
+          </div>
+        </a>
+					<a href="/" aria-label="View Item">
+          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
+             src='/cardimages/ostrich.jpg'
+             alt="poultry"
+            />
+            <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Ostrich</h3>
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
             </div>
           </div>
@@ -135,11 +148,11 @@ const Livestock = () => {
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-l	g hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src='/cardimages/livestock07.jpg'
+              src='/cardimages/snailstock.jpg'
               alt="poultry"
             />
              <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Snails</h3>
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
             </div>
           </div>

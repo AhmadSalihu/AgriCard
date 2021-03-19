@@ -134,7 +134,7 @@ const Submenu = () => {
             <div className="pt-1 pb-8">
               <p className="mb-2 text-lg font-bold h1">Step 1</p>
               <p className="text-gray-700">
-               Choose AgriCard Services Type of your chioce in the Top Navbar Menu by Clicking on AgriCard the List of Services will be display Choose the one  appropraitetly  to your liking
+               Click on The Sign Up link in the navbar, it will direct you to where you would create account using your phone number.<br /> Start with your country Code first(+234) and then your phone number.
               </p>
             </div>
           </div>
@@ -171,7 +171,7 @@ const Submenu = () => {
             <div className="pt-1 pb-8">
               <p className="mb-2 text-lg font-bold h1">Step 2</p>
               <p className="text-gray-700">
-                Onclick on the AgriCard Service Type, you would be redirected to the to the AgriCard service page, there you can read up more info about the card: services, payments and offer of the card. If you are satisfy, proceed to payment by click on the price Button.
+                After putting your phone number, click on the submit button, a recaptcha would promptin the screen, select the appropraite recaptcha and click on verify. You would rececived a code in your phone, copy that code and put it in the prompted icon and click ok.
               </p>
             </div>
           </div>
@@ -208,7 +208,7 @@ const Submenu = () => {
             <div className="pt-1 pb-8">
               <p className="mb-2 text-lg font-bold h1">Step 3</p>
               <p className="text-gray-700">
-               Then you would be directed to a form to fill, If you are a new user, click on the sign_up link to take you to sign_uppage, there you would create account with Agricard. But if you are already a registered user, fill in the form by providing your necessary details. And then click the next button.</p>
+               Then you would be directed to a form for register. Fill in the registeration form and select the type of agricard services you want and also choose the sub-type of the services and click next button</p>
             </div>
           </div>
           <div className="flex">
@@ -244,7 +244,7 @@ const Submenu = () => {
             <div className="pt-1 pb-8">
               <p className="mb-2 text-lg font-bold h1">Step 4</p>
               <p className="text-gray-700">
-               You would be directed to a review page, amke sure you review all the details provided and proceed to payment method by clicking on the payment button.
+               You would be directed to a review page, review all the details provided by you and then procceed to a payment gateway.
               </p>
             </div>
           </div>

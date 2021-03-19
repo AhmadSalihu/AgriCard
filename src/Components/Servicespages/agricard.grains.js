@@ -29,7 +29,7 @@ const AgriCardGrains = () => {
             />
             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Add to Cart</h3>
             </div>
           </div>						
         </a>
@@ -42,7 +42,7 @@ const AgriCardGrains = () => {
             />
             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Add to Cart</h3>
             </div>
           </div>
         </a>
@@ -55,7 +55,7 @@ const AgriCardGrains = () => {
             />
             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Add to Cart</h3>
             </div>
           </div>
 					</a>
@@ -68,7 +68,7 @@ const AgriCardGrains = () => {
             />
             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Add to Cart</h3>
             </div>
           </div>
 					</a>
@@ -81,7 +81,7 @@ const AgriCardGrains = () => {
             />
             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Add to Cart</h3>
             </div>
           </div>
 					</a>
@@ -94,7 +94,7 @@ const AgriCardGrains = () => {
             />
             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Add to Cart</h3>
             </div>
           </div>
 					</a>
@@ -107,7 +107,7 @@ const AgriCardGrains = () => {
             />
             <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Add to Cart</h3>
             </div>
           </div>
         </a>
@@ -120,7 +120,7 @@ const AgriCardGrains = () => {
             />
              <div style={{display: 'flex', justifyContent: 'space-between'}} className="absolute inset-x-0 bottom-0 px-1 py-2 bg-black bg-opacity-175">
                	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Grains Product</h3>
-               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">More Info</h3>
+               	<h3 className="text-sm btn font-medium tracking-wide pa5 text-white">Add to Cart</h3>
             </div>
           </div>
         </a>

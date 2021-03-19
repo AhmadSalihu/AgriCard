@@ -233,12 +233,6 @@ const AgricLoan = () => {
 						<List.Header as='a'>Farm Development Finance for improvement of agricultural land, orchards, nurseries, agro-allied industries, bakeries, animal husbandry, horticulture, etc. and construction of storage facilities, etc. for storage of seeds, raw agriculture/farm produce.</List.Header>
 					</List.Content>
 				</List.Item>
-				{/* <List.Item>
-					<List.Icon name='marker' />
-					<List.Content>
-						<List.Header as='a'>Sapporo Haru</List.Header>
-					</List.Content>
-				</List.Item> */}
 				<List.Item>
 				</List.Item>
 			</List>

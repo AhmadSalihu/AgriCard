@@ -28,7 +28,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
     />
 
         <Carousel.Caption>
-        <div style={{ overflow: 'hidden' }} className="h1 f5">
+        <div style={{ overflow: 'hidden', imageSize: 'cover' }} className="h1 f5">
           <h3>Online Roburst Citizen Database</h3>
           <p>Effective Revenue Recovery upto 30%</p>
         </div>

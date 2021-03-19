@@ -7,11 +7,12 @@ import agricards from '../agriCardState.component/selectecard.data';
 
 
 const steps = ['Address Form', 'Review Details'];
-const SingUpForm = ({ selection }) => {
+const RegisterPage = ({ selection }) => {
 	const [activeStep, setActiveStep] = useState(0);
 	const [dataForm, setDataForm] = useState({})
 	const classes = useStyles();
 
+	  // userDetails = dataForm;
 	
 	const next = (data) => {
 		setDataForm(data)
@@ -28,17 +29,18 @@ const SingUpForm = ({ selection }) => {
 	const  backStep  = () => setActiveStep ((prevActiveStep) => prevActiveStep - 1) 
 
 	const Form = () => activeStep === 0
+		// ? <PhoneValidation next={next} agricards={agricards}  />
 		? <AddressForm next={next} agricards={agricards}  />
 		: <Review dataForm={dataForm} backStep={backStep} agricards={agricards} selection={selection} />
 
 
  
-	return (
+		return (
 		<>
 			<div className={classes.toolbar} />
 			<main className={classes.layout}>
 				<Paper className={classes.paper}>
-					<Typography varian='h4' align='center'>Register Form</Typography>
+					<Typography varian='h4' align='center'>Farmer RegisterForm</Typography>
 					<Stepper activeStep={activeStep} className={classes.stpper}>
 						{steps.map((step) => (
 							<Step key={step}>
@@ -53,4 +55,4 @@ const SingUpForm = ({ selection }) => {
 	)
 }
 
-export default SingUpForm
+export default RegisterPage

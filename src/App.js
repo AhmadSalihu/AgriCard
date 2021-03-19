@@ -2,7 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
 } from "react-router-dom"
 import Header from './Components/Header'
 import Footer from './Footer/Footer'
@@ -24,15 +24,40 @@ import MixedAgric from './Components/Servicespages/mixedagric';
 import AgriCardPriceSurvey from './Components/Servicespages/agricprice.survey';
 import AgriCardFertilizer from './Components/Servicespages/agricard.fertilizer';
 import CommordityExchangeInformation from './Components/Servicespages/agricard.commodityexchange_information';
-import SingUpForm from './Components/RegisterForm/Sign-up';
 import Home from './Views/Home';
+import RegisterPage from './Components/RegisterForm/Sign-up';
+import DashBoard from './Views/user_dashbord';
+import PhoneValidation from './Components/RegisterForm/PhoneValidation';
+import { auth } from './firebase';
 
 
-function App() {
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      currentUser: null
+    }
+  }
+
+  unsubscribeFromAuth = null
+
+  componentDidMount() {
+   this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
+      this.setState({ currentUser: user })
+      console.log(user)
+    })
+  }
+
+  componentWillUnmount() {
+    this.unsubscribeFromAuth();
+  }
+
+  render() {
+    
   return (
     <div className="relative pb-10 min-h-screen">
       <Router>
-        <Header />
+        <Header currentUser={this.state.currentUser} />
         <div className="p-3">
           <Route exact path='/'>
             <Carousel />
@@ -56,7 +81,9 @@ function App() {
              <Route path='/agric_price_survey' component={AgriCardPriceSurvey} />
              <Route path='/fetilizer_program' component={AgriCardFertilizer} />
             <Route path='/agric_cei' component={CommordityExchangeInformation} />
-            <Route path='/sign_up' component={SingUpForm} />
+            <Route path='/register_page' component={RegisterPage} />
+            <Route path='/sign_up' component={PhoneValidation} />
+            <Route path='/dashbord' component={DashBoard} />
            <Route path="/about">
             <About />
           </Route>        
@@ -66,6 +93,7 @@ function App() {
       </Router>
     </div>
   );
-}
+  }
+  }
 
 export default App;
